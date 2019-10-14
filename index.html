@@ -1,10 +1,18 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>クモ</title>
-<meta name="author" content="Josh Avanier">
 <meta name="description" content="HN client">
+<meta name="author" content="Avanier">
+<title>クモ</title>
+<link rel="icon" href="data:;base64,">
 <style>
-  *,a:last-of-type{margin:0}*{padding:0}html{background-color:#030303;font:16px/1.618em sans-serif;padding:0 1.618em}body{margin:0 auto;max-width:34em;padding:4em 0}a{color:#d1d1d1;display:block;margin:0 0 1.272em;text-decoration:none}a:hover{color:#f8f8f8}
+  :root{--f:"Inter UI","Roboto","Helvetica",sans-serif;--n:#030303;--g:#bdbdbd;--b:#f8f8f8}
+  *{margin:0;padding:0}
+  ::selection{background-color:var(--b);color:var(--n)}
+  html{background-color:var(--n);font:16px/1.62em var(--f);padding:4em 2.06em}
+  body{margin:0 auto;max-width:34em}
+  a{color:var(--g);display:block;margin:0 0 1.27em;text-decoration:none}
+  a:hover{color:var(--b)}
 </style>
-<script src="kumo.js" async></script>
+<script src="filter.js"></script>
+<script src="index.js"></script>
